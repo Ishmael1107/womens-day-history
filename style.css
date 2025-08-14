@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdf4f8;
+  color: #333;
+}
+
+header {
+  background: purple;
+  color: white;
+  padding: 1em 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 2em;
+  background: linear-gradient(135deg, purple, hotpink);
+  color: white;
+}
+
+.hero-img {
+  margin-top: 15px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.quotes {
+  text-align: center;
+  margin: 2em;
+}
+
+button {
+  padding: 10px 15px;
+  background: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: hotpink;
+}
+
+.timeline {
+  padding: 2em;
+}
+
+.timeline ul {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline li {
+  padding: 10px 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 1em;
+}
+
+.gallery-img {
+  width: 30%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
